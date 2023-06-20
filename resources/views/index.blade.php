@@ -66,10 +66,7 @@ https://templatemo.com/tm-590-topic-listing
                                 <a class="nav-link click-scroll" href="#section_4">FAQs</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="{{ route('login') }}">Login</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll btn bt-outline-primary" href="{{ route('register') }}">register</a>
+                                <a class="nav-link click-scroll" href="{{ route('login') }}">Login Dan Register</a>
                             </li>
                         </ul>
 
@@ -86,9 +83,9 @@ https://templatemo.com/tm-590-topic-listing
                     <div class="row">
 
                         <div class="col-lg-8 col-12 mx-auto">
-                            <h1 class="text-white text-center">Discover. Learn. Enjoy</h1>
+                            <h1 class="text-white text-center">BIMBINGANKU</h1>
 
-                            <h6 class="text-center">platform for creatives around the world</h6>
+                            <h6 class="text-center">Mudah - Cepat - Fleksibel - Dibimbing sampai jadi sarjana!</h6>
 
                             <form method="get" class="custom-form mt-4 pt-2 mb-lg-0 mb-5" role="search">
                                 <div class="input-group input-group-lg">
@@ -96,7 +93,7 @@ https://templatemo.com/tm-590-topic-listing
                                         
                                     </span>
 
-                                    <input name="keyword" type="search" class="form-control" id="keyword" placeholder="Design, Code, Marketing, Finance ..." aria-label="Search">
+                                    <input name="keyword" type="search" class="form-control" id="keyword" placeholder="Referensi Skripsi" aria-label="Search">
 
                                     <button type="submit" class="form-control">Search</button>
                                 </div>
@@ -116,10 +113,10 @@ https://templatemo.com/tm-590-topic-listing
                             <div class="custom-block bg-white shadow-lg">
                                 <a href="topics-detail.html">
                                     <div class="d-flex">
-                                        <div>
-                                            <h5 class="mb-2">Web Design</h5>
+                                        <div style="text-align:justify">
+                                            <h5 class="mb-2">Bimbinganku?</h5>
 
-                                            <p class="mb-0">When you search for free CSS templates, you will notice that TemplateMo is one of the best websites.</p>
+                                            Nah, Di sini kamu bisa mengirim file kepada dospem mu untuk dilakukan pengecekan! Jadi selain bisa jdai tempat mengirim file, disini bisa dijadikan tempat backup skripsi loh!
                                         </div>
 
                                         <span class="badge bg-design rounded-pill ms-auto">14</span>
@@ -137,9 +134,9 @@ https://templatemo.com/tm-590-topic-listing
 
                                     <div class="custom-block-overlay-text d-flex">
                                         <div>
-                                            <h5 class="text-white mb-2">Finance</h5>
+                                            <h5 class="text-white mb-2">STT NURUL DIKRI</h5>
 
-                                            <p class="text-white">Topic Listing Template includes homepage, listing page, detail page, and contact page. You can feel free to edit and adapt for your CMS requirements.</p>
+                                            <p class="text-white">Nah, Website ini khusus untuk mahasiswa nurul fikri loh. Jadi, pastiin kamu gunain sebaik mungkin ya! </p>
 
                                             <a href="topics-detail.html" class="btn custom-btn mt-2 mt-lg-3">Learn More</a>
                                         </div>
@@ -201,12 +198,12 @@ https://templatemo.com/tm-590-topic-listing
                                                 <a href="topics-detail.html">
                                                     <div class="d-flex">
                                                         <div>
-                                                            <h5 class="mb-2">Web Design</h5>
+                                                            <h5 class="mb-2">Membaca</h5>
 
-                                                            <p class="mb-0">Topic Listing Template based on Bootstrap 5</p>
+                                                            <p class="mb-0">Rajin membaca jurnal / sumber lain. Semain banyak membaca, semakin banyak wawasanmu!</p>
                                                         </div>
 
-                                                        <span class="badge bg-design rounded-pill ms-auto">14</span>
+                                                        <span class="badge bg-design rounded-pill ms-auto">1</span>
                                                     </div>
 
                                                     <img src="{{asset('images/topics/undraw_Remote_design_team_re_urdx.png')}}" class="custom-block-image img-fluid" alt="">
@@ -219,9 +216,9 @@ https://templatemo.com/tm-590-topic-listing
                                                 <a href="topics-detail.html">
                                                     <div class="d-flex">
                                                         <div>
-                                                            <h5 class="mb-2">Graphic</h5>
+                                                            <h5 class="mb-2">Bimbingan</h5>
 
-                                                                <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                                <p class="mb-0">Jangan Menunda Bimbingan! Tapi, jangan sepenuhnya bersandar kepada dospem mu, ya.</p>
                                                         </div>
 
                                                         <span class="badge bg-design rounded-pill ms-auto">75</span>
@@ -237,9 +234,9 @@ https://templatemo.com/tm-590-topic-listing
                                                 <a href="topics-detail.html">
                                                     <div class="d-flex">
                                                         <div>
-                                                            <h5 class="mb-2">Logo Design</h5>
+                                                            <h5 class="mb-2">Dicicil</h5>
 
-                                                                <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                                <p class="mb-0">Jangan Cuma ngeluh! Tapi kerjain diawali Bismillah! Insyaallah Lancarr! SEMANGAT!</p>
                                                         </div>
 
                                                         <span class="badge bg-design rounded-pill ms-auto">100</span>
@@ -274,7 +271,7 @@ https://templatemo.com/tm-590-topic-listing
                                     </div>
 
                                     <li>
-                                        <h4 class="text-white mb-3">Search your favourite topic</h4>
+                                        <h4 class="text-white mb-3">1. Registrasi dulu yaa!</h4>
 
                                         <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, cumque magnam? Sequi, cupiditate quibusdam alias illum sed esse ad dignissimos libero sunt, quisquam numquam aliquam? Voluptas, accusamus omnis?</p>
 
@@ -284,7 +281,7 @@ https://templatemo.com/tm-590-topic-listing
                                     </li>
                                     
                                     <li>
-                                        <h4 class="text-white mb-3">Bookmark &amp; Keep it for yourself</h4>
+                                        <h4 class="text-white mb-3">Lihat jadwal mu dulu! </h4>
 
                                         <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint animi necessitatibus aperiam repudiandae nam omnis est vel quo, nihil repellat quia velit error modi earum similique odit labore. Doloremque, repudiandae?</p>
 
@@ -294,7 +291,7 @@ https://templatemo.com/tm-590-topic-listing
                                     </li>
 
                                     <li>
-                                        <h4 class="text-white mb-3">Read &amp; Enjoy</h4>
+                                        <h4 class="text-white mb-3">Kirim File skripsi ke dospemmu ya!</h4>
 
                                         <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi vero quisquam, rem assumenda similique voluptas distinctio, iste est hic eveniet debitis ut ducimus beatae id? Quam culpa deleniti officiis autem?</p>
 

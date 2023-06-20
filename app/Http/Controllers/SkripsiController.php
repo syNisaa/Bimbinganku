@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Models\Skripsi;
+use App\Models\Dosen;
 use Illuminate\Support\Facades\Auth;
 
 use Illuminate\Support\Facades\DB;
@@ -80,10 +81,11 @@ class SkripsiController extends Controller
     // Mahasiswa
     public function skripsimahasiswa()
     {
+        $dosen = Dosen::all();
         $status = "Belum di Periksa";
         $mahasiswa = Auth::user()->name;
         $skripsi = DB::select("SELECT * FROM `skripsi` WHERE nama = '$mahasiswa' AND status = '$status' ");
-        return view('viewsiswa.skripsi',compact('skripsi'));
+        return view('viewsiswa.skripsi',compact('skripsi','dosen'));
     }
 
     public function skripsikuAcc()

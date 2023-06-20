@@ -20,7 +20,7 @@ Route::get('/', function () {
 Auth::routes();
 
 // Admin
-Route::get('/home', 'App\Http\Controllers\HomeController@index')->name('dashboardadmin');
+Route::get('/dashboardadmin', 'App\Http\Controllers\HomeController@index')->name('dashboardadmin');
 Route::get('/skripsimahasiswaAdmin', 'App\Http\Controllers\SkripsiController@index');
 Route::get('/jadwalBimbinganAdmin', 'App\Http\Controllers\JadwalController@index');
 Route::put('dosen/update/{id}','App\Http\Controllers\JadwalController@updatedosen');
@@ -39,5 +39,6 @@ Route::get('/jadwalmahasiswa', 'App\Http\Controllers\JadwalController@jadwalmaha
 Route::get('/skripsiku', 'App\Http\Controllers\SkripsiController@skripsimahasiswa');
 Route::get('/skripsikuAcc', 'App\Http\Controllers\SkripsiController@skripsikuAcc');
 Route::post('skripsiku/create','App\Http\Controllers\SkripsiController@create');
+
 
 

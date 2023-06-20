@@ -129,9 +129,14 @@
                 <form method="post" action="/skripsiku/create" enctype="multipart/form-data">
                     {{ csrf_field() }}
                     <div class="form-group">
-                        <label>Nama Dosen</label>
-                        <input type="text" name="namadosen" id="namadosen" class="form-control" placeholder="Category Class" aria-label="program" aria-describedby="basic-addon1">
-                        
+                        <select class="btn btn-outline-secondary dropdown-toggle" id="namadosen" name="namadosen" class="form-control" placeholder="Class Category" aria-label="class" aria-describedby="basic-addon1">
+                                    <option value="0" selected disabled>Pilih Nama DosenMu... </option>
+                                    @foreach ($dosen as $d)
+                                    <option value="{{ $d->nama }}">
+                                        {{ $d->nama }}
+                                    </option>
+                                    @endforeach
+                                </select>
                     <div class="form-group">
                         <label>Tahapan</label>
                         <input type="text" name="tahap" id="tahap" class="form-control" placeholder="Tahap 1, 2 ..." aria-label="tahap" aria-describedby="basic-addon1">
